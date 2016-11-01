@@ -1,0 +1,72 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 21px;
+    margin-top: 20px;
+}
+
+#top .nav
+{
+    /* center navigation pills */
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    background-color: #CBFFCF;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
+ul.nav {
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.table {
+    text-align:left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #674D83;
+    background-color: #CBFFCF;
+    font-size: 15.5px;
+}
+p {
+    font-size: 16px;
+    color: #00ABB4;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

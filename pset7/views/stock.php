@@ -1,0 +1,1 @@
+<p>A share of <?= htmlspecialchars($name) ?> costs $<?= htmlspecialchars($price) ?>.</p>
